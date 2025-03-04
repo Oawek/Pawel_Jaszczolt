@@ -121,7 +121,7 @@ class Garage
         }
         else
         {
-            Console.WriteLine("Garaż jest pełny!");
+            Console.WriteLine("Garaż jest pełny!");//komentarz
         }
     }
 
