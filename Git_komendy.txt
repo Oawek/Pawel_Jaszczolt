@@ -25,3 +25,4 @@ git add .
 git commit -m "Rozwiązano konflikt"  
 git push origin main  
 
+s
