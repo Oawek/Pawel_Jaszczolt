@@ -1,1 +1,27 @@
-"TEST" 
+﻿# 📥 Pobranie repozytorium (tylko raz na nowym komputerze/folderze)
+git clone https://github.com/Oawek/Pawel_Jaszczolt.git  
+cd Pawel_Jaszczolt  
+
+# 🔄 Pobranie najnowszych zmian przed pracą
+git pull origin main  
+
+# 📝 Dodanie wszystkich zmian do obszaru staging
+git add .  
+
+# 📌 Zapisanie zmian w repozytorium lokalnym
+git commit -m "Opis zmian"  
+
+# 🚀 Wysłanie zmian na GitHuba
+git push origin main  
+
+# 🛑 Jeśli wystąpi błąd przy push (bo są nowe zmiany na GitHubie)
+git pull origin main --rebase  
+git push origin main  
+
+# ⚠️ Jeśli pojawi się konflikt plików
+# 1. Rozwiąż konflikt w edytorze (VS Code)
+# 2. Następnie:
+git add .  
+git commit -m "Rozwiązano konflikt"  
+git push origin main  
+
