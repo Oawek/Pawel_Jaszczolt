@@ -2,6 +2,7 @@
 
 class Car
 {
+    //test 11.03
     // Pola prywatne (enkapsulacja)
     private string _brand;
     private string _model;
